@@ -1,4 +1,4 @@
-# learn-hub
+# Learn-Hub
 
 ## Diagrams
 
