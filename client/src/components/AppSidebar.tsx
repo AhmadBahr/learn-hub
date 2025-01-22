@@ -76,7 +76,7 @@ const AppSidebar = () => {
                                         height={20}
                                         className="app-sidebar__logo"
                                     />
-                                    <p className="app-sidebar__title">EDROH</p>
+                                    <p className="app-sidebar__title">  Learn Hub </p>
                                 </div>
                                 <PanelLeft className="app-sidebar__collapse-icon" />
                             </div>
@@ -89,7 +89,7 @@ const AppSidebar = () => {
                     {currentNavLinks.map((link) => {
                         const isActive = pathname.startsWith(link.href);
                         return (
-                            <SidebarMenuItem 
+                            <SidebarMenuItem
                                 key={link.href}
                                 className={cn(
                                     "app-sidebar__nav-item",
