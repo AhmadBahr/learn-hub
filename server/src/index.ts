@@ -7,6 +7,7 @@ import bodyParser from "body-parser";
 import * as dynamoose from "dynamoose";
 
 /* Route Imports */
+import courseRoutes from "./routes/courseRoutes";
 
 /* Configurations */
 dotenv.config();
@@ -29,6 +30,8 @@ app.use(cors());
 app.get("/", (req, res) => {
     res.send("Hello World!");
 });
+
+app.use("/courses", courseRoutes);
 
 /* Start Server */
 const port = process.env.PORT || 3000;
