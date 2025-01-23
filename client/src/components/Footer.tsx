@@ -21,6 +21,7 @@ const Footer = () => {
                         href={href}
                         className="footer__link"
                         target={href.startsWith("http") ? "_blank" : "_self"} 
+                        scroll={false}
                     >
                         {label}
                     </Link>

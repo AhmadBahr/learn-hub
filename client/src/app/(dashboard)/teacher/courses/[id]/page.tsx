@@ -107,8 +107,8 @@ const CourseEditor = () => {
                                     type="switch"
                                     className="flex items-center space-x-2"
                                     labelClassName={`text-sm font-medium ${methods.watch("courseStatus")
-                                        ? "text-green-500"
-                                        : "text-yellow-500"
+                                            ? "text-green-500"
+                                            : "text-yellow-500"
                                         }`}
                                     inputClassName="data-[state=checked]:bg-green-500"
                                 />
